@@ -1,0 +1,139 @@
+/*!
+
+=========================================================
+* Material Dashboard Angular - v2.8.0
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/material-dashboard-angular2
+* Copyright 2021 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://github.com/creativetimofficial/material-dashboard-angular2/blob/master/LICENSE.md)
+
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
+
+
+/*******************************************************/
+.tim-typo{
+  padding-left: 25%;
+  margin-bottom: 40px;
+  position: relative;
+  width: 100%;
+}
+.tim-typo .tim-note{
+  bottom: 5px;
+  color: #c0c1c2;
+  display: block;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  left: 0;
+  margin-left: 20px;
+  position: absolute;
+  width: 260px;
+}
+
+
+.main-panel{
+  position: relative;
+  float: right;
+   width: 100%;
+  /* @include transition (0.33s, cubic-bezier(0.685, 0.0473, 0.346, 1));  */
+
+   .main-content{
+      margin-top: 70px;
+      padding: 30px 15px;
+      min-height: calc(100vh - 123px);
+  }
+
+   .footer{
+      border-top: 1px solid #e7e7e7;
+  }
+
+   .navbar{
+      margin-bottom: 0;
+  }
+
+  .header{
+      margin-bottom: 30px;
+
+      .title{
+          margin-top: 10px;
+          margin-bottom: 10px;
+      }
+  }
+}
+
+
+.card {
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+
+  .table tr:first-child td{
+    border-top: none;
+  }
+
+  .card-title{
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  .card-body{
+    padding: 10px 20px;
+    position: relative;
+
+  }
+
+  .card-header {
+    z-index: 3 !important;
+
+    .card-title{
+      margin-bottom: 3px;
+    }
+
+    .card-category{
+      margin: 0;
+    }
+
+    &.card-header-text {
+        display: inline-block;
+
+        &:after {
+            content: "";
+            display: table;
+        }
+    }
+
+    &.card-header-icon,
+    &.card-header-text {
+        i {
+            width: 33px;
+            height: 33px;
+            text-align: center;
+            line-height: 33px;
+        }
+        .card-title{
+          margin-top: 15px;
+          color: black;
+        }
+        h4{
+          font-weight: 300;
+        }
+    }
+
+    &.card-header-tabs {
+        .nav-tabs {
+            background: transparent;
+            padding: 0;
+        }
+        .nav-tabs-title {
+            float: left;
+            padding: 10px 10px 10px 0;
+            line-height: 24px;
+        }
+    }
+  }
+}
